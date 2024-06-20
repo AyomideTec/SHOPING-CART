@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.item-details {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.quantity-controls button {
+    width: 30px;
+    height: 30px;
+}
+
+.quantity-controls input {
+    width: 40px;
+    text-align: center;
+}
+
+.like-btn {
+    cursor: pointer;
+}
+
+.like-btn.liked {
+    color: red;
+}
+
+.total-price {
+    font-size: 20px;
+    margin-top: 20px;
+}
